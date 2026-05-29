@@ -1,0 +1,17 @@
+def CalcularPromedioDeEdad():
+    Cantidad_Alumnos=int(input("Digite la cantidad de alumnos "))
+    i=0
+    Suma_Edades=0
+    while True:
+        Edad=int(input("Digite la edad del alumno "))
+        Suma_Edades=Suma_Edades+Edad
+        i=i+1
+        i < (Cantidad_Alumnos+1)=input("¿Desea ingresar otra edad? si/no: ")
+        if i<(Cantidad_Alumnos+1)=="no":
+            break
+
+    Promedio_Edad=Suma_Edades/Cantidad_Alumnos
+    print(Promedio_Edad)
+
+CalcularPromedioDeEdad()
+ 
